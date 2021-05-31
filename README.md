@@ -1,5 +1,6 @@
-# Spring security course
+# Corso Spring Security
 ## Codice di esempio del corso.
+### E' possibile utilizzare il proprio IDE preferito per la compilazione ed esecuzione del codice. Unico requisito sono le JDK 11.
 ### Seguire i successivi passi per avere una macchina virtuale Linux sul proprio PC.
 
 ## (1) Scaricare ed installare VMWare player:
