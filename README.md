@@ -12,7 +12,7 @@
 ### Password: osboxes.org
 ### https://www.osboxes.org/ubuntu/#ubuntu-1804-info
 
-## (3) Seguire la guida "How to attach/configure image with VMware (VMX Version)?" 
+## (3) Seguire la guida "How to attach/configure image with VMware (VMX Version)?" per installare l'immagine del passo (2) 
 ### https://www.osboxes.org/guide/
 
 
