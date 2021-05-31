@@ -1,7 +1,6 @@
 # Spring security course
 ## Codice di esempio del corso.
-### Seguire i successivi passi per avere una macchina virtuale Linux
-### sul proprio PC.
+### Seguire i successivi passi per avere una macchina virtuale Linux sul proprio PC.
 
 ## (1) Scaricare ed installare VMWare player:
 ### https://www.vmware.com/go/getplayer-win
