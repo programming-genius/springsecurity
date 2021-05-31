@@ -10,6 +10,7 @@
 ### Ubuntu 18.04.3 Bionic Beaver
 ### Username: osboxes
 ### Password: osboxes.org
+### Attenzione! Selezionare tab VMWARE. Scegliere 64 bit o 32 bit a seconda dell'architettura del proprio PC.
 ### https://www.osboxes.org/ubuntu/#ubuntu-1804-info
 
 ## (3) Seguire la guida "How to attach/configure image with VMware (VMX Version)?" per installare l'immagine del passo (2) 
