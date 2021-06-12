@@ -22,9 +22,9 @@ public class UserManagementConfig {
 
 	@Bean
 	public PasswordEncoder passwordEncoder() {
-		return new Sha512PasswordEncoder();
-		//return new Pbkdf2PasswordEncoder("secret", 30000, 256);
+		//return new Sha512PasswordEncoder();
+		//return new Pbkdf2PasswordEncoder("secret", 30000, 256);   
 		// return new BCryptPasswordEncoder(4);
-		//return new SCryptPasswordEncoder(16384, 8, 1, 32, 64);
+		return new SCryptPasswordEncoder(16384, 8, 1, 32, 64);
 	}
 }

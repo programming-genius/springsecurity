@@ -37,7 +37,8 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
 		 // Tutti gli utenti autenticati possono accedere
 		http.authorizeRequests().mvcMatchers("/403").hasAnyAuthority("READER","GUEST","CREATOR");
 		// Per tutti gli altri url se il ruolo dell'utente non è compreso tra quelli elencati l'accesso è respinto e gestito dall'handler
-		http.authorizeRequests().anyRequest().hasAnyAuthority("READER", "GUEST").and().exceptionHandling().accessDeniedHandler(accessDeniedHandler());
+		http.authorizeRequests().anyRequest().hasAnyAuthority("READER", "GUEST").
+		and().exceptionHandling().accessDeniedHandler(accessDeniedHandler());
 	}
 
 	@Bean

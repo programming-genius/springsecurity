@@ -9,6 +9,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 public class SecurityManagementConfig {
 	@Bean
 	public InitializingBean initializingBean() {
-		return () -> SecurityContextHolder.setStrategyName(SecurityContextHolder.MODE_INHERITABLETHREADLOCAL);
+		return () -> SecurityContextHolder.setStrategyName
+				(SecurityContextHolder.MODE_INHERITABLETHREADLOCAL);
 	}
 }

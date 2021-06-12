@@ -16,7 +16,7 @@ public class MainPageController {
 	
 	@PostMapping("/cors")
 	@ResponseBody
-	@CrossOrigin(origins="http://localhost") 
+	//@CrossOrigin(origins="http://localhost") 
 	public String test() {
 		return "http://localhost is now allowed";
 	}
