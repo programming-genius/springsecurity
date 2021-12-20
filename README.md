@@ -15,3 +15,16 @@
 
 ## (3) Seguire la guida "How to attach/configure image with VMware (VMDK file version)? Per installare l'immagine del passo (2) 
 ### https://www.osboxes.org/guide/
+
+## Nel caso di problemi di lock su risorsa eseguire
+1. sudo killall apt apt-get
+2. sudo rm /var/lib/apt/lists/lock
+3. sudo rm /var/cache/apt/archives/lock
+4. sudo rm /var/lib/dpkg/lock*
+5. sudo dpkg --configure -a
+6. sudo apt update
+
+
+## Per funzionalità di intereazione host-macchina virtuale eseguire
+sudo apt update
+sudo apt install open-vm-tools-desktop
